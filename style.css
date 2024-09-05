@@ -15,7 +15,7 @@ ul{margin: 0px;
 }
 
 body> header{
-    background-color: orangered;
+    background-color: rgba(0, 255, 110, 0.979);
     color: #82fade;
     display:flex;
     height: 15vh;
@@ -65,7 +65,7 @@ h2{
 }
 
 body > footer {
-    background-color: orangered;
+    background-color: rgb(0, 255, 110, 0.979);
     display: flex;
 }
 img {
