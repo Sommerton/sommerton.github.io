@@ -3,6 +3,12 @@ body{
     margin: 0px;
     font-size: 1.5vw;
 }
+body{
+     background-image: url(https://wallpaperaccess.com/full/1087621.jpg);
+      background-size:cover; /* This makes the image cover the whole screen */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat;
+    } 
 
 #logo {margin: 0px;
     padding: 8px;
@@ -15,8 +21,8 @@ ul{margin: 0px;
 }
 
 body> header{
-    background-color: rgb(255, 71, 25);
-    color: #82ccfa;
+    background-color: gray;
+    color: #085c90;
     display:flex;
     height: 15vh;
     align-items: center; 
@@ -46,6 +52,7 @@ body > header > nav > ul {
 body > main article {
     width: 80%;
     margin: auto;
+    color: #085c90;
 }
 
 #main-content {
@@ -59,6 +66,7 @@ body > main article {
 
 form {
     text-align: center;
+    color: #085c90;
 }
 
 h2{
@@ -66,9 +74,11 @@ h2{
 }
 
 body > footer {
-    background-color: rgb(255, 71, 25);
+    background-color: gray;
+    color: #085c90;
     display: flex;
 }
+
 img {
     border-radius: 50%;
 }
@@ -84,5 +94,8 @@ margin-left: 15px;
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
+}
+aside{
+    color: #085c90;
 }
 
